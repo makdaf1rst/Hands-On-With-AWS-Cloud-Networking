@@ -47,13 +47,13 @@ By completing this series, I gained hands-on experience with:
 ### Phase 1: Foundations (Projects 1-2)
 Before diving into networking, I established AWS fundamentals:
 
-**1. [Host a Website on Amazon S3]((https://github.com/makdaf1rst/aws-host-a-website-on-s3))**
+**1. [Host a Website on Amazon S3]([link-to-s3-repo](https://github.com/makdaf1rst/aws-host-a-website-on-s3))**
 - Created S3 buckets and enabled static website hosting
 - Configured bucket policies and ACLs for access control
 - Learned about globally unique bucket names and endpoint URLs
 - ⏱️ Duration: 1 hour
 
-**2. [Cloud Security with AWS IAM](link-to-iam-repo)**
+**2. [Cloud Security with AWS IAM]([link-to-iam-repo](https://github.com/makdaf1rst/aws-security-iam))**
 - Built IAM policies using JSON for role-based access control
 - Created user groups and managed permissions across environments
 - Implemented tagging strategies for resource organization
@@ -64,14 +64,14 @@ Before diving into networking, I established AWS fundamentals:
 
 ### Phase 2: Core Networking (Projects 3-7)
 
-**3. [Build a Virtual Private Cloud](link-to-vpc-repo)**
+**3. [Build a Virtual Private Cloud]([link-to-vpc-repo](https://github.com/makdaf1rst/aws-build-vpc))**
 - Created custom VPC with IPv4 CIDR block configuration
 - Set up public/private subnets across availability zones
 - Configured internet gateways for external connectivity
 - Automated VPC creation using AWS CLI and CloudShell
 - ⏱️ Duration: 2-3 hours
 
-**4. [VPC Traffic Flow and Security](link-to-traffic-security-repo)**
+**4. [VPC Traffic Flow and Security]([link-to-traffic-security-repo](https://github.com/makdaf1rst/aws-vpc-traffic-flow-and-security))**
 - Configured route tables for traffic direction
 - Implemented security groups for resource-level control
 - Set up network ACLs for subnet-level security
@@ -79,14 +79,14 @@ Before diving into networking, I established AWS fundamentals:
 - Used EC2 Global View for resource management
 - ⏱️ Duration: 1 hour
 
-**5. [Creating a Private Subnet](link-to-private-subnet-repo)**
+**5. [Creating a Private Subnet]([link-to-private-subnet-repo](https://github.com/makdaf1rst/aws-creating-a-private-subnet))**
 - Designed backend infrastructure with complete isolation
 - Created dedicated route tables without internet gateway
 - Implemented restrictive network ACLs (deny all traffic)
 - Understood private vs public subnet architecture
 - ⏱️ Duration: 30 minutes
 
-**6. [Launching VPC Resources](link-to-vpc-resources-repo)**
+**6. [Launching VPC Resources]([link-to-vpc-resources-repo](https://github.com/makdaf1rst/aws-launching-vpc-resources))**
 - Deployed EC2 instances in public and private subnets
 - Configured SSH key pairs for secure access
 - Set up security groups with source-based restrictions
@@ -94,7 +94,7 @@ Before diving into networking, I established AWS fundamentals:
 - Learned about NAT gateways for private subnet internet access
 - ⏱️ Duration: 20 minutes
 
-**7. [Testing VPC Connectivity](link-to-connectivity-repo)**
+**7. [Testing VPC Connectivity]([link-to-connectivity-repo](https://github.com/makdaf1rst/aws-networks-connectivity))**
 - Used EC2 Instance Connect for SSH access
 - Performed connectivity testing with ping and curl commands
 - Debugged security group and NACL configurations
@@ -106,7 +106,7 @@ Before diving into networking, I established AWS fundamentals:
 
 ### Phase 3: Advanced Networking (Projects 8-11)
 
-**8. [VPC Peering](link-to-peering-repo)**
+**8. [VPC Peering]([link-to-peering-repo](https://github.com/makdaf1rst/aws-networks-peering))**
 - Created peering connections between VPCs
 - Updated route tables for inter-VPC communication
 - Configured Elastic IP addresses for stable connectivity
@@ -114,7 +114,7 @@ Before diving into networking, I established AWS fundamentals:
 - Ensured non-overlapping CIDR blocks
 - ⏱️ Duration: 45 minutes
 
-**9. [VPC Monitoring with Flow Logs](link-to-flow-logs-repo)**
+**9. [VPC Monitoring with Flow Logs]([link-to-flow-logs-repo](https://github.com/makdaf1rst/aws-networks-monitoring))**
 - Set up VPC Flow Logs with CloudWatch integration
 - Created IAM roles and trust policies for log delivery
 - Analyzed network traffic patterns and rejected connections
@@ -122,7 +122,7 @@ Before diving into networking, I established AWS fundamentals:
 - Debugged connectivity issues using flow log data
 - ⏱️ Duration: 1 hour
 
-**10. [Access S3 from a VPC](link-to-s3-access-repo)**
+**10. [Access S3 from a VPC]([link-to-s3-access-repo](https://github.com/makdaf1rst/aws-networks-s3))**
 - Configured AWS CLI on EC2 instances
 - Set up access keys for AWS service authentication
 - Listed and uploaded objects to S3 from EC2
@@ -130,7 +130,7 @@ Before diving into networking, I established AWS fundamentals:
 - Used commands: `aws s3 ls`, `aws s3 cp`, `aws configure`
 - ⏱️ Duration: 30 minutes
 
-**11. [VPC Endpoints](link-to-endpoints-repo)**
+**11. [VPC Endpoints]([link-to-endpoints-repo](https://github.com/makdaf1rst/aws-networks-endpoints))**
 - Created S3 Gateway endpoints for private connectivity
 - Implemented bucket policies restricting traffic to VPC endpoint
 - Configured endpoint policies for granular traffic control
