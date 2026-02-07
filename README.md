@@ -317,10 +317,6 @@ This networking series is Phase 2 of the complete Cloud Engineering roadmap. Nex
 - [Project 10: Access S3 from a VPC](https://github.com/makdaf1rst/aws-networks-s3)
 - [Project 11: VPC Endpoints](https://github.com/makdaf1rst/aws-networks-endpoints)
 
-**Project Documentation (PDFs):**
-- [VPC Connectivity Testing Documentation](link-to-connectivity-pdf)
-- [VPC Monitoring with Flow Logs Documentation](link-to-monitoring-pdf)
-
 **External Resources:**
 - [NextWork Cloud Engineering Roadmap](https://learn.nextwork.org/projects/aws-networks-monitoring?explore=series:cloud%20engineer)
 - [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/)
